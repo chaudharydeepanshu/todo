@@ -258,6 +258,8 @@ class _TodoDisplayTileState extends State<TodoDisplayTile> {
   bool _isExpanded = false;
   @override
   Widget build(BuildContext context) {
+    final ThemeData theme = Theme.of(context);
+
     return InkWell(
       onTap: () {
         setState(() {
@@ -273,22 +275,37 @@ class _TodoDisplayTileState extends State<TodoDisplayTile> {
                   ? Icons.person
                   : Icons.sports_volleyball,
         ),
-        title: Text(
-          widget.title,
-          maxLines: 1,
-          overflow: TextOverflow.ellipsis,
-          style: TextStyle(
-            decoration: widget.isCompleted
-                ? TextDecoration.lineThrough
-                : TextDecoration.none,
+        title: AnimatedCrossFade(
+          // Wrap the title with AnimatedCrossFade
+          firstChild: Text(
+            widget.title,
+            maxLines: 1,
+            overflow: TextOverflow.ellipsis,
+            style: theme.textTheme.titleMedium!.copyWith(
+              decoration: widget.isCompleted
+                  ? TextDecoration.lineThrough
+                  : TextDecoration.none,
+            ),
           ),
+          secondChild: Text(
+            widget.title,
+            style: theme.textTheme.titleMedium!.copyWith(
+              decoration: widget.isCompleted
+                  ? TextDecoration.lineThrough
+                  : TextDecoration.none,
+            ),
+          ),
+          crossFadeState: _isExpanded
+              ? CrossFadeState.showSecond
+              : CrossFadeState.showFirst,
+          duration: const Duration(milliseconds: 300),
         ),
         subtitle: AnimatedCrossFade(
           firstChild: Text(
             widget.description,
             maxLines: 1,
             overflow: TextOverflow.ellipsis,
-            style: TextStyle(
+            style: theme.textTheme.bodySmall!.copyWith(
               decoration: widget.isCompleted
                   ? TextDecoration.lineThrough
                   : TextDecoration.none,
@@ -296,7 +313,7 @@ class _TodoDisplayTileState extends State<TodoDisplayTile> {
           ),
           secondChild: Text(
             widget.description,
-            style: TextStyle(
+            style: theme.textTheme.bodySmall!.copyWith(
               decoration: widget.isCompleted
                   ? TextDecoration.lineThrough
                   : TextDecoration.none,
