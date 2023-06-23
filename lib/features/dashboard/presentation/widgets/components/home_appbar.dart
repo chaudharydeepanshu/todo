@@ -55,7 +55,13 @@ class _HomeAppBarState extends State<HomeAppBar> {
             children: <Widget>[
               FlexibleSpaceBar(
                 // show and hide SliverAppBar Title
-                title: isSliverAppBarExpanded ? const Text('Home') : null,
+                title: isSliverAppBarExpanded
+                    ? Text(
+                        'Home',
+                        style: TextStyle(color: theme.colorScheme.onSurface),
+                      )
+                    : null,
+
                 background: Stack(
                   children: <Widget>[
                     Container(
