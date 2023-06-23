@@ -92,7 +92,7 @@ class _AddEditTodoScreenState extends ConsumerState<AddEditTodoScreen> {
           });
         }
 
-        await ref.read(addTodoCommandCommandStateProvider).run(
+        await ref.read(updateTodoCommandStateProvider).run(
               todoModel,
               ref.read(todosModelStateProvider),
             );
