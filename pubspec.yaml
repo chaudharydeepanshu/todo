@@ -45,7 +45,7 @@ dependencies:
   # https://stackoverflow.com/questions/71803062/flutterfire-cli-how-to-switch-between-separate-firebase-consoles
   firebase_auth: ^4.6.3
   firebase_core: ^2.14.0
-  cloud_firestore: ^4.8.1
+  cloud_firestore: ^4.8.2
 
   # For google sign in.
   # For SHA Key generation run `cd android` and `./gradlew signingReport`.

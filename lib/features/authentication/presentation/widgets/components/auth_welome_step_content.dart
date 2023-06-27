@@ -1,3 +1,4 @@
+import 'package:todo/constants/other_constants.dart';
 import 'package:todo/features/shared/presentation/widgets/onboarding/screen_content_overlay_box.dart';
 import 'package:flutter/material.dart';
 
@@ -22,7 +23,7 @@ class WelcomeStepContent extends StatelessWidget {
   Widget build(BuildContext context) {
     return StepOverlayContent(
       isProcessing: isProcessing,
-      titleText: "Welcome to elRed Todo App!",
+      titleText: "Welcome to $appName App!",
       bodyText: "The slickest todo app in the world.",
       content: Wrap(
         spacing: 16,
