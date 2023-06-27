@@ -1,3 +1,4 @@
+import 'package:todo/constants/other_constants.dart';
 import 'package:todo/firebase_options.dart';
 import 'package:todo/utils/logger_util.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -15,9 +16,6 @@ import 'package:todo/route/app_routes.dart' as route;
 /// Use it in place of [kDebugMode] through out the app to check for debug mode.
 /// Useful in faking production mode in debug mode by setting it to false.
 bool isInDebugMode = kDebugMode;
-
-/// Its true if the application is mocking server.
-bool isMockingServer = true;
 
 /// Key used when building the ScaffoldMessenger.
 final GlobalKey<ScaffoldMessengerState> rootScaffoldMessengerKey =
@@ -73,7 +71,7 @@ class DynamicColorApp extends StatelessWidget {
 
         return MaterialApp(
           debugShowCheckedModeBanner: false,
-          title: 'Guff Client',
+          title: appName,
           theme: ThemeData(
             useMaterial3: true,
             colorScheme: lightScheme,

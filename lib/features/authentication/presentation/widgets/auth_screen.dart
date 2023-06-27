@@ -1,3 +1,4 @@
+import 'package:todo/constants/other_constants.dart';
 import 'package:todo/features/authentication/domain/models/account_model.dart';
 import 'package:todo/features/authentication/domain/models/auth_steps_model.dart';
 import 'package:todo/features/authentication/presentation/states/auth_state.dart';
@@ -26,7 +27,7 @@ class AuthScreen extends StatelessWidget {
         extendBodyBehindAppBar: true,
         appBar: AppBar(
           title: const Text(
-            "elRed",
+            appName,
             style: TextStyle(),
           ),
           backgroundColor:
