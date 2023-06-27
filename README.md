@@ -21,15 +21,16 @@ TODO is designed to demonstrate the implementation of MVC+S architecture, reposi
 
 ## Demo Video:-
 
-https://github.com/chaudharydeepanshu/todo/assets/85361211/af760d5e-be74-428e-a130-348ddcb75766
+https://github.com/chaudharydeepanshu/todo/assets/85361211/251df1cc-6eae-4dc4-ba27-45b8fa72e44f
 
 ## Screenshots:-
 
 |  |  |  |
 | -------------- | -------------- | -------------- |
-| <img src="https://github.com/chaudharydeepanshu/todo/assets/85361211/2206740c-50d2-4325-9c51-31e45ab4bcb8"></img> | <img src="https://github.com/chaudharydeepanshu/todo/assets/85361211/1b668c45-cbc2-42d4-8b18-2284c9656834"></img> | <img src="https://github.com/chaudharydeepanshu/todo/assets/85361211/aaa1051a-ca54-42ad-be25-9433384a391f"></img> |
-| <img src="https://github.com/chaudharydeepanshu/todo/assets/85361211/a3fc56eb-6b06-41e7-9af4-33e56572adca"></img> | <img src="https://github.com/chaudharydeepanshu/todo/assets/85361211/cb3fdfee-4f9d-48c0-a6ef-4ced181bb54b"></img> | <img src="https://github.com/chaudharydeepanshu/todo/assets/85361211/e4d0597c-d0c9-4123-9211-2fa83cea2047"></img> |
-| <img src="https://github.com/chaudharydeepanshu/todo/assets/85361211/a73ac48b-8812-451c-94a3-f7db712c352c"></img> | <img src="https://github.com/chaudharydeepanshu/todo/assets/85361211/103646d4-97ac-4e5c-8927-7c181eefb0bb"></img> | <img src="https://github.com/chaudharydeepanshu/todo/assets/85361211/436c32e3-af90-4d06-99cf-a3eac0f8904d"></img> |
+| <img src="https://github.com/chaudharydeepanshu/todo/assets/85361211/b7e99202-c964-4b9f-8c26-f3eff1084dca"></img> | <img src="https://github.com/chaudharydeepanshu/todo/assets/85361211/c8dfbf7b-2d7a-4cc3-805b-5b978e669ad7"></img> | <img src="https://github.com/chaudharydeepanshu/todo/assets/85361211/0eb9d97e-2332-4981-aef9-63b53777c1f7"></img> |
+| <img src="https://github.com/chaudharydeepanshu/todo/assets/85361211/5caa605a-f95b-4e3a-a182-0ac70884878e"></img> | <img src="https://github.com/chaudharydeepanshu/todo/assets/85361211/e67a4fcf-b987-40e0-a819-06e43bad5bbd"></img> | <img src="https://github.com/chaudharydeepanshu/todo/assets/85361211/1406c852-c806-46b8-9d05-8da7d20f1f61"></img> |
+| <img src="https://github.com/chaudharydeepanshu/todo/assets/85361211/4ed271b9-46b2-44ef-ba8f-7bde2c8dd598"></img> | <img src="https://github.com/chaudharydeepanshu/todo/assets/85361211/b225989e-d213-4ac7-8d1b-c15b4163f212"></img> | <img src="https://github.com/chaudharydeepanshu/todo/assets/85361211/a34e0225-ed1a-4286-a902-9bdfba09b67e"></img> |
+| <img src="https://github.com/chaudharydeepanshu/todo/assets/85361211/a50a1a26-30a2-41f7-9a1e-de58cbe21e56"></img> | <img src="https://github.com/chaudharydeepanshu/todo/assets/85361211/54d06866-11f4-4c1a-9cb6-6f476d220db6"></img> | <img src="https://github.com/chaudharydeepanshu/todo/assets/85361211/71f34700-410c-42ba-a541-3eaf00b791fc"></img> |
 
 ### Contribute
 
